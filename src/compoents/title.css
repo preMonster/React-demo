@@ -1,0 +1,45 @@
+.title{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px 5px;
+  margin-bottom: 20px;
+	animation: a3 1.5s;
+	animation-fill-mode: forwards;
+  animation-delay:4s;
+}
+
+.title .titleIcon{
+  font-size: 30px;
+  margin-right: 5px;
+	animation: a1 4s;
+	animation-fill-mode: forwards;
+}
+
+.title h1{
+  display: inline-block;
+	animation: a2 3.6s;
+	animation-fill-mode: forwards;
+  animation-delay:0.4s;
+  -webkit-animation-delay:0.4s;
+}
+
+@keyframes a1{
+	0%{}
+	15%{transform: rotate(30deg);}
+	50%{transform: translate(500px,0px) rotate(30deg);}
+	100%{transform: translate(0px,0px) rotate(-720deg);}
+}
+
+
+@keyframes a2{
+	0%{}
+	13%{transform: translate(0px,30px);}
+	87%{transform: translate(0px,30px);}
+	100%{transform: translate(0px,0px);}
+}
+
+@keyframes a3{
+	0%{}
+	100%{border-bottom: 1px #ECECEC solid;}
+}

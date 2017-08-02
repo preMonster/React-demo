@@ -1,0 +1,14 @@
+.FormContent{
+  width: 70%;
+  margin: 20px auto;
+}
+
+.FormButton{
+  width: 200px;
+  margin: 20px auto;
+}
+
+.FormButtonChild{
+  width: 100%;
+  margin: 10px;
+}

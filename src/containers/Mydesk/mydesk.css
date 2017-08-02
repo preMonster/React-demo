@@ -1,0 +1,21 @@
+.CardContent{
+  width: 80%;
+  margin: 10px auto;
+}
+
+
+.Carousel{
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background: #404040;
+}
+
+
+.CarouselChild{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}

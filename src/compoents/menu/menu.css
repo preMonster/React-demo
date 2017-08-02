@@ -1,0 +1,15 @@
+.MenuContent{
+  width:180px;
+}
+
+.MenuContent .MenuButtons{
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.MenuContent .MenuButton{
+  width: 70px;
+  height: 25px;
+  margin: 10px;
+}

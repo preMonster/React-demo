@@ -1,0 +1,58 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color: #ECECEC;
+}
+
+.MainHeader {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 200px;
+  padding: 20px;
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.MainContent{
+  min-height: 600px;
+  margin:30px;
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF;
+  padding: 15px;
+}
+
+
+.MainSaber{
+  width: 200px;
+  border-right: 1px  #ECECEC solid;
+}
+
+.MainContentRight{
+  width: calc(100% - 202px);
+  margin-left: 20px;
+}
+
+
+.MainContentChild{
+  height: 100%;
+}
+
+
+.MainFooter{
+  background-color: #222;
+  height: 200px;
+}

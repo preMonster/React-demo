@@ -1,0 +1,8 @@
+.LineChartsContent{
+  display: flex;
+  justify-content: center;
+}
+
+.LineChartsSwitch{
+  margin-top: 80px;
+}

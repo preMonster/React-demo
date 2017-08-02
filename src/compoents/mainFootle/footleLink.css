@@ -1,0 +1,21 @@
+.linkTextImg{
+  display: flex;
+  align-items: center;
+}
+
+.linkTextImg span,a{
+  font-size: 12px;
+  color: #F1F1F1;
+  margin:5px;
+}
+
+
+.PopoverContent span{
+  display: block;
+  text-align: center;
+  color:#000;
+  font-size: 12px;
+}
+.PopoverContent img{
+  width: 150px;
+}

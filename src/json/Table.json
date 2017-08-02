@@ -1,0 +1,65 @@
+{
+  "rowData":[
+    {
+      "id":1,
+      "name":"rowSelection",
+      "content":"列表项是否可选择",
+      "type":"object",
+      "moren":"null"
+    },{
+      "id":2,
+      "name":"pagination",
+      "content":"分页器",
+      "type":"object",
+      "moren":""
+    },{
+      "id":3,
+      "name":"dataSource",
+      "content":"数据数组",
+      "type":"[]",
+      "moren":""
+    },{
+      "id":4,
+      "name":"rowKey",
+      "content":"表格行 key 的取值，可以是字符串或一个函数",
+      "type":"string|Function(record):string",
+      "moren":"'key'"
+    },{
+      "id":5,
+      "name":"onChange",
+      "content":"分页、排序、筛选变化时触发",
+      "type":"Function(pagination, filters, sorter)",
+      "moren":""
+    },{
+      "id":6,
+      "name":"loading",
+      "content":"页面是否加载中",
+      "type":"boolean|object",
+      "moren":"false"
+    },{
+      "id":7,
+      "name":"onRowClick",
+      "content":"点击行时触发",
+      "type":"Function(record, index, event)",
+      "moren":""
+    },{
+      "id":8,
+      "name":"onRowDoubleClick",
+      "content":"双击行时触发",
+      "type":"Function(record, index, event)",
+      "moren":""
+    },{
+      "id":9,
+      "name":"title",
+      "content":"表格标题",
+      "type":"Function(currentPageData)",
+      "moren":""
+    },{
+      "id":10,
+      "name":"scroll",
+      "content":"横向或纵向支持滚动，也可用于指定滚动区域的宽高度：{{ x: true, y: 300 }}",
+      "type":"object",
+      "moren":""
+    }
+  ]
+}

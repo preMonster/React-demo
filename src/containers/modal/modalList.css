@@ -1,0 +1,24 @@
+.MyModalContentTitle{
+  width: 100%;
+  height: 40px;
+  line-height: 20px;
+  border:1px #EFEFEF solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px 0px;
+  box-shadow: 1px 1px #BFBFBF;
+}
+
+.Alert{
+  margin: 10px 0px;
+}
+
+.message{
+  margin: 10px 20px;
+}
+
+.card{
+  color: red;
+  margin:20px 0px;
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+.tootip{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tootipChild{
+  margin: 10px
+}
+
+.LeftForm{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tootipRight{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 20px
+}
